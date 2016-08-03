@@ -35,9 +35,9 @@ def main():
 		sys.exit()
 
 	if len(argv) < 2:
-		print "Usage: isobake rdisk2 test.iso"
+		print "Usage: isobake [disk] [iso]"
 	elif len(argv) < 3:
-		print "Usage: isobake rdisk2 test.iso"
+		print "Usage: isobake [disk] [iso]"
 	else:	
 		confirm = raw_input("CONFIRM:: we will write %s to %s: [y/n]" % (iso, disk))
 		if confirm == "y":
